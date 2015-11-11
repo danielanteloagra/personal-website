@@ -1,0 +1,89 @@
+.personal-details {
+
+  .image {
+    @include span(12);
+
+    text-align: center;
+
+    @include at-breakpoint(tablet) {
+      @include span(5);
+    }
+
+    @include at-breakpoint(desktop) {
+      @include span(2.5);
+    }
+
+    img {
+      display: none;
+
+      @include at-breakpoint(tablet) {
+        display: block;
+        max-height: 205px;
+      }
+    }
+  }
+
+  .details {
+    @include clearfix;
+    @include span(12);
+
+    @include at-breakpoint(tablet) {
+      @include span(7 last);
+    }
+
+    @include at-breakpoint(desktop) {
+      @include span(3.25);
+    }
+
+    .term,
+    .description {
+      border-bottom: 1px solid $color-alto;
+      float: left;
+      margin: 0;
+      padding: .8em 0;
+    }
+
+    .term {
+      clear: both;
+      padding-right: .5em;
+      width: 30%;
+    }
+
+    .description {
+      width: 70%;
+    }
+  }
+
+  .profile {
+    @include span(12);
+
+    padding-top: 1em;
+
+    @include at-breakpoint(tablet) {
+      @include span(12);
+    }
+
+    @include at-breakpoint(desktop) {
+      @include span(6 last);
+    }
+
+    .subtitle {
+      margin: 0;
+    }
+  }
+
+  .links {
+    clear: both;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        float: left;
+        padding-right: 1em;
+      }
+    }
+  }
+}

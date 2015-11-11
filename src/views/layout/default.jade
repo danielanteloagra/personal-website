@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='/css/style.min.css')
+        block title
+          title Default title
+        meta(name='description', content='')
+        meta(name='keywords', content='')
+
+    body
+        <!--[if lt IE 9]>
+        p.browsehappy Please #[a(href="http://browsehappy.com/") upgrade your browser] to improve experience.
+        <![endif]-->
+
+        block header
+            include ../partials/header.jade
+
+        block content
+
+        block footer
+            include ../partials/footer.jade
+
+        script(src='/js/script.min.js')

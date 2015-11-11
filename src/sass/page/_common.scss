@@ -1,0 +1,63 @@
+.main-content {
+  margin-top: 60px;
+}
+
+.section {
+  @extend %container;
+
+  padding-bottom: 3em;
+  padding-top: 3em;
+
+  @include at-breakpoint(desktop) {
+    padding-bottom: 4em;
+    padding-top: 4em;
+  }
+
+  .title {
+    @extend %type-heading-large;
+
+    border: 1px solid $color-mine-shaft;
+    margin: 0 auto 1em;
+    padding: .4em .6em;
+    position: relative;
+    text-align: center;
+
+    @include at-breakpoint(desktop) {
+      margin: 0 auto 2em;
+      max-width: 300px;
+    }
+
+    small {
+      background: $color-white;
+      font-size: .5em;
+      font-weight: 300;
+      left: 0;
+      letter-spacing: 1px;
+      padding: 0 .8em;
+      position: absolute;
+      text-transform: uppercase;
+      top: -15px;
+    }
+  }
+
+  .subtitle {
+    @extend %type-secondary-heading;
+
+    margin: .5em 0 .25em;
+  }
+
+  &:nth-child(even),
+  &:nth-child(even) .title small {
+    background-color: $color-wild-sand;
+  }
+
+  .dates {
+    display: block;
+
+    @include at-breakpoint(desktop) {
+      float: right;
+      font-size: 1.125rem;
+      margin-top: -2em;
+    }
+  }
+}

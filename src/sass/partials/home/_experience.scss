@@ -1,0 +1,33 @@
+.experience {
+
+  .job {
+    border-bottom: 1px solid $color-alto;
+    margin-bottom: 1.5em;
+    padding-bottom: .5em;
+
+    &:last-of-type {
+      border: 0;
+      margin-bottom: 0;
+    }
+
+    .name {
+      @extend %type-secondary-heading;
+
+      margin: 0;
+    }
+
+    .location {
+      @extend %type-tertiary-heading;
+    }
+
+    a {
+      color: $color-mine-shaft;
+      display: inline-block;
+      margin-right: .5em;
+    }
+
+    .description {
+      margin-top: .5em;
+    }
+  }
+}

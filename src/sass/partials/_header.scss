@@ -1,0 +1,50 @@
+.header {
+  @extend %container;
+
+  @include clearfix;
+
+  background: $color-white;
+  box-shadow: $color-alto 0 0 6px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $z-header;
+
+  .heading {
+    @extend %type-default;
+    @extend %type-heading;
+
+    background: $color-black;
+    color: $color-white;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 1.1em 1.3em .8em;
+    text-transform: uppercase;
+  }
+
+  .menu-toggle {
+    background: none;
+    border: 0;
+    border-bottom: 6px solid $color-black;
+    border-top: 6px solid $color-black;
+    display: inline-block;
+    float: right;
+    height: 28px;
+    margin-top: .8em;
+    position: relative;
+    text-indent: -999999em;
+    width: 35px;
+
+    &:before {
+      border-top: 6px solid $color-black;
+      content: '';
+      left: 0;
+      position: absolute;
+      top: 5px;
+      width: 100%;
+    }
+  }
+
+  @import 'primary_navigation';
+}

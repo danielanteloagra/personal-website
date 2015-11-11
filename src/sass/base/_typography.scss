@@ -1,0 +1,40 @@
+// import custom fonts
+@import 'http://fonts.googleapis.com/css?family=PT+Sans:400,700';
+@import 'http://fonts.googleapis.com/css?family=Oswald:400,300,700';
+
+html {
+  @extend %type-default;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+%type-default {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+}
+
+%type-smaller {
+  font-size: .875rem;
+}
+
+%type-heading {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+%type-heading-large {
+  @extend %type-heading;
+
+  font-size: 2rem;
+}
+
+%type-secondary-heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+%type-tertiary-heading {
+  font-size: 1.125rem;
+}

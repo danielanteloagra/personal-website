@@ -1,0 +1,31 @@
+{
+  "name": "daa-web",
+  "version": "1.0.0",
+  "author": "Daniel Antelo",
+  "license": "proprietary",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run html:build & npm run sass:build",
+    "watch": "npm run html:watch & npm run sass:watch",
+    "checkstyle": "npm run html:checkstyle && npm run sass:checkstyle",
+    "html:build": "jade src/views/index.jade --out build/",
+    "html:watch": "nodemon -e jade -w src/views -x 'npm run html:build'",
+    "html:checkstyle": "jade-lint src/views/",
+    "sass:build": "node-sass src/sass/main.scss | cleancss -o build/css/style.min.css",
+    "sass:watch": "nodemon -e scss -w src/sass -x 'npm run sass:build'",
+    "sass:checkstyle": "scss-lint src/sass/"
+  },
+  "dependencies": {
+    "normalize-libsass": "^1.0.3",
+    "susy": "^2.2.6"
+  },
+  "devDependencies": {
+    "clean-css": "^3.4.6",
+    "jade": "^1.11.0",
+    "jade-lint": "^1.2.13",
+    "node-sass": "^3.4.0",
+    "nodemon": "^1.8.0"
+  }
+}

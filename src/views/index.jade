@@ -1,0 +1,22 @@
+extends ./layout/default.jade
+
+block title
+    title Daniel Antelo
+
+block content
+    main(vocab='http://schema.org/' typeof='Person').main-content
+
+        block personal_details
+            include partials/home/personal_details
+
+        block skills
+            include partials/home/skills
+
+        block experience
+            include partials/home/experience
+
+        block education
+            include partials/home/education
+
+        block portfolio
+            include partials/home/portfolio

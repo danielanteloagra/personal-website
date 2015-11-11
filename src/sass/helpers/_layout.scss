@@ -1,0 +1,26 @@
+// clearfix mixin
+@mixin clearfix {
+
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+// simple responsive web mixin
+@mixin at-breakpoint($media) {
+
+  $tablet-breakpoint:  520px !default;
+  $desktop-breakpoint: 900px !default;
+
+  @if $media == tablet {
+    @include susy-breakpoint($tablet-breakpoint, $susy) { @content; }
+  } @else if $media == desktop {
+    @include susy-breakpoint($desktop-breakpoint, $susy) { @content; }
+  }
+}

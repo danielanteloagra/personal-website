@@ -1,0 +1,13 @@
+.browsehappy {
+  @extend %type-smaller;
+
+  background: $color-eden;
+  color: $color-white;
+  margin: 0;
+  padding: .5em;
+  text-align: center;
+
+  a {
+    color: $color-white;
+  }
+}

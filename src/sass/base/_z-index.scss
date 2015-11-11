@@ -1,0 +1,13 @@
+$z-negative:    -1;         // When you need to put a child under it's positioned parent
+$z-zero:        0;          // For those exceptional circumstances where you need something under the z-base
+$z-base:        1;          // Starting point for all z-indexes
+$z-low:         5;          // When you need more than the base z
+$z-mid:         50;         // Somewhere in between
+$z-high:        100;        // On top of other content
+$z-on-top:      999;        // On top of all content
+
+// Special z-indices - stuff that lives outside the rules
+$z-dropdown:    9999;       // Dropdown menus go on top of content
+$z-header:      99999;      // Sticky header sits on top of dropdowns
+$z-overlay:     999999;     // Sits on top of content and dropdowns
+$z-modal:       9999999;    // King of z-indexes - always the highest z-index
