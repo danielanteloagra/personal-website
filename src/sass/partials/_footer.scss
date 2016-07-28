@@ -1,0 +1,11 @@
+.footer {
+  background: $color-mine-shaft;
+  color: $color-white;
+  padding: .4em;
+  text-align: center;
+
+  .copyright {
+    @extend %type-smaller;
+    display: inline-block;
+  }
+}

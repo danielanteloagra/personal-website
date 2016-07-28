@@ -5,7 +5,9 @@
   color: $color-white;
   margin: 0;
   padding: .5em;
+  position: relative;
   text-align: center;
+  z-index: $z-overlay;
 
   a {
     color: $color-white;
