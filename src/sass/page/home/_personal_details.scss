@@ -84,11 +84,15 @@
     li {
       @extend %type-smaller;
 
-      border: .125em solid $color-eden;
+      border: .25em solid $color-eden;
       border-radius: 1em;
       float: left;
       margin-right: .5em;
       padding: .5em 1em;
+
+      a {
+        color: $color-mine-shaft;
+      }
     }
   }
 }
