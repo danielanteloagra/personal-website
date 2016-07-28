@@ -79,10 +79,24 @@
       list-style: none;
       margin: 0;
       padding: 0;
+    }
 
-      li {
-        float: left;
-        padding-right: 1em;
+    li {
+      @extend %type-smaller;
+
+      background-color: $color-eden;
+      border: .25em solid $color-eden;
+      border-radius: 1em;
+      float: left;
+      margin-right: .5em;
+
+      &:hover {
+        opacity: 0.85;
+      }
+
+      a {
+        color: $color-white;
+        padding: 0 1em;
       }
     }
   }

@@ -1,7 +1,5 @@
-// normalize
 @import '../../../node_modules/normalize-libsass/normalize';
 
-// apply a natural box layout model to all elements, but allowing components to change.
 html {
   box-sizing: border-box;
 

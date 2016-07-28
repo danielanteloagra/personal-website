@@ -1,6 +1,7 @@
 .header {
-  @extend %container;
+  @import 'primary_navigation';
 
+  @extend %container;
   @include clearfix;
 
   background: $color-white;
@@ -36,6 +37,10 @@
     text-indent: -999999em;
     width: 35px;
 
+    @include at-breakpoint(desktop) {
+      display: none;
+    }
+
     &:before {
       border-top: 6px solid $color-black;
       content: '';
@@ -46,5 +51,11 @@
     }
   }
 
-  @import 'primary_navigation';
+  input[type=checkbox]#menu-toggle {
+    display: none;
+
+    &:checked + .primary-navigation {
+      display: block;
+    }
+  }
 }
