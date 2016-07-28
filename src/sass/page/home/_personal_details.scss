@@ -84,14 +84,19 @@
     li {
       @extend %type-smaller;
 
+      background-color: $color-eden;
       border: .25em solid $color-eden;
       border-radius: 1em;
       float: left;
       margin-right: .5em;
-      padding: .5em 1em;
+
+      &:hover {
+        opacity: 0.85;
+      }
 
       a {
-        color: $color-mine-shaft;
+        color: $color-white;
+        padding: 0 1em;
       }
     }
   }
