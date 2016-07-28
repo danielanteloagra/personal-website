@@ -2,9 +2,11 @@
   @extend %type-heading;
   @extend %type-smaller;
 
+  clear: both;
   display: none;
 
   @include at-breakpoint(desktop) {
+    clear: none;
     display: block;
     float: right;
     width: auto;

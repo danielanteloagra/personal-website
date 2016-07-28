@@ -1,7 +1,7 @@
 .education {
 
   .certificate {
-    border-bottom: 1px solid $color-alto;
+    border-bottom: .1em solid $color-alto;
     margin-bottom: 1em;
     padding-bottom: 1em;
 
@@ -18,7 +18,7 @@
     }
 
     .institution {
-      font-size: 1.125rem;
+      @extend %type-tertiary-heading;
     }
   }
 }
