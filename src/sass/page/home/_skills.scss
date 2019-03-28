@@ -10,7 +10,7 @@
     @include at-breakpoint(desktop) {
       @include span(4);
 
-      &.programming {
+      &.delivery {
         margin-right: 0;
       }
     }
