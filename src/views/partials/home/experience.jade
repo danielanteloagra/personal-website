@@ -1,7 +1,7 @@
 section#experience.experience.section
     h2.title Work Experience #[small Where I&#39;ve worked]
 
-    div.job.current
+    div(typeof='Event/Job', class='job current')
         h3(property='jobTitle', class='name') Senior Software Developer
 
         div(property='worksFor', typeof='Organization')
@@ -16,9 +16,11 @@ section#experience.experience.section
                 span May 2017 - Present
 
             p(property='description', class='description')
-                | Leading the development of several greenfield micro apps. Full stack fun with Node, NextJs and React producing highly tested code with continuous delivery to AWS EBS and K8 via Jenkins.
+                | Helping lead multiple teams in the development of several greenfield micro apps, including Porter Digital, content pages, site furniture and homepage.
+                | Full stack fun with Node, NextJs, React, Redux and Fela; producing highly tested code with continuous delivery to AWS EBS and K8 via Jenkins.
+                | I was key contributor in the setup of shared components in a Lerna monolithic repo, setting up shared NextJS infrastructure, centralised CI pipelines and Storybook/Cypress testing at component level.
 
-    div.job.current
+    div(typeof='Event/Job', class='job')
         h3(property='jobTitle', class='name') Senior Software Developer
 
         div(property='worksFor', typeof='Organization')
@@ -33,14 +35,13 @@ section#experience.experience.section
                 span January 2017 - April 2017
 
             p(property='description', class='description')
-                | Joined the Acquisition squad, which main focus is the user experience for the registration and on
-                | boarding parts of the site. The projects are a mix of in-house legacy code, Zend Framework 1 and
-                | Symfony. I helped a lot with site speed improvements, halfing their average page load times, and
-                | setup a prototype of the registration flows in React as a POC that it could better existing development
-                | time as well as user experience and browser load times. Sadly I decided to leave before my probation
-                | ended and seek a different challenge.
+                | Joined the Acquisition squad working on registration and on boarding.
+                | The projects are a mix of legacy Zend and Symfony.
+                | I helped with site speed improvements, halving their average page load times.
+                | I also setup a prototype of the registration flow in React.
+                | Sadly I decided to leave before my probation ended and seek a different challenge.
 
-    div.job.current
+    div(typeof='Event/Job', class='job')
         h3(property='jobTitle', class='name') Lead Web Developer
 
         div(property='worksFor', typeof='Organization')
@@ -55,12 +56,12 @@ section#experience.experience.section
                 span December 2014 - January 2017
 
             p(property='description', class='description')
-                | Currently leading the development of the public facing website and its management systems
-                | at this incredibly fast paced accommodation startup. <br>
-                | Content and mobile first full stack fun with Symfony, JCR, MySQL, Sass, ECMAScript 6, Redux and React.
+                | Lead the development of the public facing website and its management systems at this incredibly fast paced accommodation startup.
+                | Content and mobile first full stack fun with Symfony2, JCR, MySQL, Sass, ECMAScript 6, Redux and React.
+                | Helped grow the team from a handful of developers to a peak of 15, mentoring juniors and overseeing both frontend and backend stacks.
 
 
-    div(typeof='Event/Job', class='job')
+    div(typeof='Event/Job', class='job pagebreak')
         h3(property='name', class='name') Software Engineer II
 
         div(property='location', typeof='Place', class='location')
