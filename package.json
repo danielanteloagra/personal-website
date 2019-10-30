@@ -22,7 +22,7 @@
     "susy": "^2.2.6"
   },
   "devDependencies": {
-    "clean-css": "^3.4.6",
+    "clean-css": "^4.1.11",
     "jade": "^1.11.0",
     "jade-lint": "^1.2.13",
     "node-sass": "^3.4.0",
