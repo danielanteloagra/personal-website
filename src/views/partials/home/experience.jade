@@ -2,6 +2,30 @@ section#experience.experience.section
     h2.title Work Experience #[small Where I&#39;ve worked]
 
     div(typeof='Event/Job', class='job current')
+        h3(property='jobTitle', class='name') Senior Frontend Engineer
+
+        div(property='worksFor', typeof='Organization')
+            span(property='name' content='OakNorth')
+
+            span(property='location', typeof='Organization', class='location')
+                a(property='url', target='_blank', href='https://www.oaknorth.com/?noredirect') OakNorth,
+                span(property='address', typeof='PostalAddress')
+                    span(property='addressLocality') London
+
+            div.dates
+                span Sep 2019 - Present
+
+            p(property='description', class='description')
+                | Technical lead, line manager and frontend engineer. Highlights include:
+            ul
+                li Lead of the case analysis mission: 2 cross functional squads of ~6 engineers solving data normalisation and visualisation with Python and React
+                li Designed and led the migration to micro-frontends using Lerna and github packages
+                li Designed and led the move to workflow driven e2e test with visual regression in Cypress
+                li Frontend Guild lead and project manager
+                li Lead interviewer for frontend engineers (setting up a bespoke interview process and exercises)
+                li Helped develop the employee feedback and development process
+
+    div(typeof='Event/Job', class='job')
         h3(property='jobTitle', class='name') Senior Software Developer
 
         div(property='worksFor', typeof='Organization')
@@ -13,18 +37,17 @@ section#experience.experience.section
                     span(property='addressLocality') London
 
             div.dates
-                span May 2017 - Present
+                span May 2017 - Sep 2019
 
             p(property='description', class='description')
-                | Joined to help lead the development of the greenfield project Porter Digital. 
-                | Ended up being a key contributor to changing the way the teams work migrating 
-                | to a monolithic repo and introducing several techniques to tighten up testing 
-                | and continuous integration. Took the initiative to run a cross team steering 
-                | group to up our coding and testing standards and ensure we were all in sync. 
-                | All of which greatly improved productivity and release rate in all teams.
-                | Lots of fun with isomorphic React, Redux, Node, NextJs, FelaJS, Restful APIs and GraphQL.
+                | Technical lead and javascript full stack engineer. Highlights include:
+            ul
+                li led the development of the greenfield project Porter Digital (team of 6 engineers)
+                li helped change the ways of working and improve productivity for the whole content department (4 teams): move to a monolith lerna repo, improved CI and more testing focus
+                li ran a cross team steering group to up our coding and testing standards and ensure we were all in sync. 
+                li ran a code club to help upskill engineers with focus on TDD
 
-    div(typeof='Event/Job', class='job')
+    div(typeof='Event/Job', class='job pagebreak')
         h3(property='jobTitle', class='name') Lead Web Developer
 
         div(property='worksFor', typeof='Organization')
@@ -66,7 +89,7 @@ section#experience.experience.section
             | core member of the Vodafone Spain online store project, helping to lead the front-end development.
             | Full stack development with Java, Spring MVC, Oracle SQL, JSP, HTML, CSS and Javascript.
 
-    div(typeof='Event/Job', class='job pagebreak')
+    div(typeof='Event/Job', class='job')
         h3(property='name', class='name') Lead Developer
 
         div(property='location', typeof='Place', class='location')

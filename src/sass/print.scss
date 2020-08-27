@@ -1,119 +1,134 @@
 @media print {
-    html {
-        font-size: 12px !important;
+  html {
+    font-size: 12px !important;
+  }
+
+  .header,
+  .footer {
+    display: none;
+  }
+
+  .section {
+    padding: 0 3.25em 2em !important;
+    background-color: white !important;
+
+    .dates {
+      float: right;
     }
 
-    .header,
-    .footer {
-        display: none;
-    }
+    .title {
+      margin: 0 auto 1em !important;
+      padding: 0.35em !important;
+      font-size: 1.3rem !important;
+      max-width: 230px !important;
 
-    .section {
-        padding: 0 3.25em 2em !important;
+      small {
         background-color: white !important;
+        top: -8px !important;
+      }
 
-        .title {
-            margin: 0 auto .5em !important;
-            padding: 0.35em !important;
-            font-size: 1.3rem !important;
-            max-width: 230px !important;
+      &.name {
+        font-size: 0 !important;
+        border: none !important;
+        max-width: 400px !important;
+        height: 3rem;
+        margin-bottom: 0.5rem !important;
 
-            small {
-                background-color: white !important;
-                top: -8px !important;
-            }
-
-            &.name {
-                font-size: 0 !important;
-                border: none !important;
-                max-width: 400px !important;
-                height: 3rem;
-                margin-bottom: 0.5rem !important;
-
-                &::after {
-                    font-family: Georgia;
-                    content: 'Daniel Antelo';
-                    color: black;
-                    font-size: 2.6rem;
-                    position: absolute;
-                    left: 25%;
-                    top: -1.75rem;
-                }
-
-                &::before {
-                    font-family: Georgia;
-                    content: " www.danielantelo.com \A 07587617797 ";     
-                    white-space: pre;
-                    color: black;
-                    font-size: 1rem;
-                    position: absolute;
-                    left: 33%;
-                    bottom: -.5em;
-                }
-            }
+        &::after {
+          font-family: Georgia;
+          content: "Daniel Antelo";
+          color: black;
+          font-size: 2.6rem;
+          position: absolute;
+          left: 25%;
+          top: -1.75rem;
         }
+
+        &::before {
+          font-family: Georgia;
+          content: " www.danielantelo.com \A 07587617797 ";
+          white-space: pre;
+          color: black;
+          font-size: 1rem;
+          position: absolute;
+          left: 33%;
+          bottom: -0.5em;
+        }
+      }
+    }
+  }
+
+  .personal-details {
+    .image,
+    .details,
+    .links {
+      display: none !important;
     }
 
-    .personal-details {
-        .image,
-        .details,
-        .links {
-            display: none !important;
-        }
+    .profile {
+      width: 100% !important;
+      padding: 0 !important;
 
-        .profile {
-            width: 100% !important;
-            padding: 0 !important;
+      .subtitle {
+        display: none !important;
+      }
+    }
+  }
 
-            .subtitle {
-                display: none !important;
-            }
-        }
+  .skills {
+    .skill {
+      width: 32% !important;
+    }
+    .languages {
+      display: none !important;
     }
 
-    .skills {
-        .languages {
-            display: none !important;
-        }
-
-        .subtitle {
-            font-size: 1.4rem !important;
-        }
-
-        .technical-knowledge {
-            .subtitle {
-                display: none !important;
-            }
-        }
+    .subtitle {
+      font-size: 1.4rem !important;
     }
 
-    .experience {
-        .job {
-            margin: 0.25em !important;
-            padding: .3em 0 0.25em !important;
+    .technical-knowledge {
+      ul {
+        width: 25% !important;
+      }
+      .subtitle {
+        display: none !important;
+      }
+    }
+  }
 
-            .name {
-                font-size: 1.4rem !important;
-            }
+  .experience {
+    .job {
+      margin: 0.3em !important;
+      padding: 0.4em 0 0.3em !important;
 
-            &.pagebreak {
-                padding-top: 6rem !important;
-            }
-        }
+      .name {
+        font-size: 1.4rem !important;
+      }
 
-        .dates {
-            margin-top: -1.5em !important;
-        }
+      ul {
+        margin: 0;
+        padding: 0 0 0.75rem 1.5rem;
+      }
+
+      &.pagebreak {
+        padding-top: 6rem !important;
+      }
+    }
+  }
+
+  .education {
+    .description {
+      font-size: 1.4rem !important;
     }
 
-    .education {
-        .description {
-            font-size: 1.4rem !important;
-        }
-
-        .certificate {
-            margin: 0.25em !important;
-            padding: .25em 0 !important;
-        }
+    .certificate {
+      margin: 0.25em !important;
+      padding: 0.25em 0 !important;
     }
+
+    .dates {
+      margin-top: -2rem;
+    }
+  }
 }
