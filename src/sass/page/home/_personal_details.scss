@@ -1,5 +1,4 @@
 .personal-details {
-
   .image {
     @include span(12);
 
@@ -40,12 +39,12 @@
       border-bottom: 1px solid $color-alto;
       float: left;
       margin: 0;
-      padding: .8em 0;
+      padding: 0.8em 0;
     }
 
     .term {
       clear: both;
-      padding-right: .5em;
+      padding-right: 0.5em;
       width: 30%;
     }
 
@@ -85,10 +84,10 @@
       @extend %type-smaller;
 
       background-color: $color-eden;
-      border: .25em solid $color-eden;
+      border: 0.25em solid $color-eden;
       border-radius: 1em;
       float: left;
-      margin-right: .5em;
+      margin-right: 0.5em;
 
       &:hover {
         opacity: 0.85;
@@ -96,7 +95,7 @@
 
       a {
         color: $color-white;
-        padding: 0 1em;
+        padding: 0.5em;
       }
     }
   }

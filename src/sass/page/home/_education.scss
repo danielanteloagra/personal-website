@@ -1,7 +1,6 @@
 .education {
-
   .certificate {
-    border-bottom: .1em solid $color-alto;
+    border-bottom: 0.1em solid $color-alto;
     margin-bottom: 1em;
     padding-bottom: 1em;
 
@@ -12,7 +11,7 @@
     }
 
     .description {
-      @extend %type-secondary-heading;
+      @extend %type-tertiary-heading;
 
       margin: 0;
     }
