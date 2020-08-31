@@ -55,6 +55,7 @@
 
   .languages {
     ul {
+      @extend %type-smaller;
       @include clearfix;
 
       margin: 0.5em 0;
