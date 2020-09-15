@@ -3,6 +3,8 @@ import styled from "styled-components"
 import Section from "../components/Section"
 
 const Highlight = styled.div`
+  vertical-align: top;
+
   @media (min-width: 900px) {
     display: inline-block;
     margin-right: 10px;
@@ -36,31 +38,31 @@ const SkillList = styled.ul`
 const Skill = styled.li`
   margin: 0;
   border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  padding: 8px 0;
 `
 
 export default function Skills() {
   return (
     <Section grey title="Skills & Knowledge" description="What I'm best at">
       <Highlight>
+        <h3>People Management</h3>
+        <p>
+          Experience building and managing multitiered teams successfully
+          delivering software. People first mentality towards management.
+        </p>
+      </Highlight>
+      <Highlight>
         <h3>Project Direction</h3>
         <p>
-          Proven ability to lead and manage development teams using agile
+          Proven ability to lead development teams using agile/lean
           methodologies and continuous integration principles.
         </p>
       </Highlight>
       <Highlight>
-        <h3>Software Delivery</h3>
+        <h3>Software Development & Delivery</h3>
         <p>
-          Highly focused on continuous delivery via the right tooling, with a
-          soft spot for automated testing and the testing pyramid.
-        </p>
-      </Highlight>
-      <Highlight>
-        <h3>Software Development</h3>
-        <p>
-          Experience in requirements capture and software design. Passion for
-          maintainable, extensible, reusable and readable code.
+          Highly focused on continuous delivery and automated testing. Passion
+          for maintainable, extensible, reusable and readable code.
         </p>
       </Highlight>
       <Tech>
@@ -85,7 +87,7 @@ export default function Skills() {
         </SkillList>
         <SkillList>
           <Skill>Node</Skill>
-          <Skill>Apollo GraphQL</Skill>
+          <Skill>GraphQL</Skill>
           <Skill>RESTful Apis</Skill>
           <Skill>SQL / Mongo</Skill>
         </SkillList>

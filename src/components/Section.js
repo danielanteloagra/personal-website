@@ -9,7 +9,7 @@ const Wrapper = styled.section`
   }
   @media print {
     background: #fff;
-    padding: 1rem 2rem;
+    padding: 1.25rem 2rem;
   }
 `
 
@@ -27,7 +27,7 @@ const Title = styled.h2`
   }
 
   @media print {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin: 0 auto 1em;
     max-width: 230px;
   }
@@ -41,7 +41,7 @@ const Description = styled.small`
   padding: 0 0.8em;
   position: absolute;
   text-transform: uppercase;
-  top: -8px;
+  top: -7px;
   @media print {
     background: #fff;
   }

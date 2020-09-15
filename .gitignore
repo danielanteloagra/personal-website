@@ -1,5 +1,7 @@
 *.log*
-Node_modules
+node_modules
 .cache/
 .DS_Store
 .log
+public
+

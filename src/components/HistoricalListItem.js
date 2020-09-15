@@ -26,6 +26,11 @@ const Dates = styled.div`
     float: right;
     margin-top: 8px;
   }
+
+  @media print {
+    float: right;
+    margin-top: 8px;
+  }
 `
 
 export default function HistoricalListItem({
