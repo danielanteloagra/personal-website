@@ -35,8 +35,8 @@ export default function Experience() {
                   analysis and monitoring workflows with Python and React
                 </li>
                 <li>
-                  coordinate 2-3 cross functional squads of ~6 to meet their
-                  quarterly goals
+                  coordinate and distribute work between 2 or 3 cross functional
+                  squads of ~6 to meet quarterly goals
                 </li>
                 <li>
                   optimise team processes for incremental delivery following
@@ -92,7 +92,7 @@ export default function Experience() {
             </li>
             <li>
               ran a cross team steering group to up our coding and testing
-              standards and ensure we were all in sync.
+              standards and ensure we were all in sync and sharing
             </li>
             <li>ran a code club to help upskill engineers with focus on TDD</li>
           </ul>

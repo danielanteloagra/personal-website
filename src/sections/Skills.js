@@ -66,29 +66,25 @@ export default function Skills() {
         </p>
       </Highlight>
       <Tech>
-        <h3>Technical Knowledge</h3>
+        <h3>Most Relevant Technical Expertise</h3>
         <SkillList>
           <Skill>Typescript</Skill>
           <Skill>Javascript</Skill>
           <Skill>HTML</Skill>
-          <Skill>CSS</Skill>
         </SkillList>
         <SkillList>
           <Skill>React</Skill>
           <Skill>NextJS</Skill>
-          <Skill>Styled Components</Skill>
-          <Skill>SCSS</Skill>
+          <Skill>CSS / SASS / CSS-in-JS</Skill>
         </SkillList>
         <SkillList>
           <Skill>Micro Frontends</Skill>
           <Skill>Lerna &amp; Yarn</Skill>
-          <Skill>Jest</Skill>
-          <Skill>Cypress</Skill>
+          <Skill>Jest / Cypress</Skill>
         </SkillList>
         <SkillList>
           <Skill>Node</Skill>
-          <Skill>GraphQL</Skill>
-          <Skill>RESTful Apis</Skill>
+          <Skill>GraphQL / REST APIs</Skill>
           <Skill>SQL / Mongo</Skill>
         </SkillList>
       </Tech>
