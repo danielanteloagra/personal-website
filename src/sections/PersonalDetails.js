@@ -38,7 +38,8 @@ const PersonaDetails = styled(Section)`
 const Block = styled.div`
   width: 100%;
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 15px;
+  vertical-align: top;
 
   &:first-of-type {
     padding-left: 0;
@@ -53,22 +54,9 @@ const Heading = styled.h3`
   margin: 0;
 `
 
-const Image = styled(Block)`
-  display: none;
-
-  @media (min-width: 900px) {
-    display: inline-block;
-    width: 20%;
-  }
-
-  img {
-    max-width: 200px;
-  }
-`
-
 const Profile = styled(Block)`
   @media (min-width: 900px) {
-    width: 55%;
+    width: 70%;
   }
 
   @media print {
@@ -78,7 +66,7 @@ const Profile = styled(Block)`
 
 const Details = styled(Block)`
   @media (min-width: 900px) {
-    width: 25%;
+    width: 30%;
   }
 `
 
@@ -88,6 +76,10 @@ const Detail = styled.div`
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
 `
+
+const DL = styled.dl`
+  margin: 0;
+`;
 
 const DT = styled(Detail).attrs({
   as: "dt",
@@ -108,14 +100,9 @@ export default function PersonalDetails() {
       description="Who I am"
       className="personalDetails"
     >
-      <Image>
-        <HideInPrint>
-          <img src="pic.png" />
-        </HideInPrint>
-      </Image>
       <Details>
         <HideInPrint>
-          <dl>
+          <DL>
             <DT>Name:</DT>
             <DD>Daniel Antelo</DD>
             <DT>Nationality:</DT>
@@ -128,7 +115,7 @@ export default function PersonalDetails() {
             <DD>
               <a href="danielantelo@live.com">danielantelo@live.com</a>
             </DD>
-          </dl>
+          </DL>
         </HideInPrint>
       </Details>
       <Profile>
