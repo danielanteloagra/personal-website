@@ -1,4 +1,6 @@
 module.exports = {
   pathPrefix: "/personal-website",
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-no-index`,
+  ]
 }
