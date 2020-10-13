@@ -4,8 +4,11 @@ import Section from "../components/Section"
 import HistoricalListItem from "../components/HistoricalListItem"
 
 const MostRecent = styled.div`
+  border-bottom: 0.1em solid #ddd;
+
   @media print {
     page-break-after: always;
+    border-bottom: none;
   }
 `
 
