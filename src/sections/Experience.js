@@ -5,10 +5,12 @@ import HistoricalListItem from "../components/HistoricalListItem"
 
 const MostRecent = styled.div`
   border-bottom: 0.1em solid #ddd;
+  padding-bottom: 1em;
 
   @media print {
     page-break-after: always;
     border-bottom: none;
+    padding-bottom: 0;
   }
 `
 
