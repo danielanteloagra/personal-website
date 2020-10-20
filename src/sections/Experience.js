@@ -41,11 +41,11 @@ export default function Experience() {
                 </li>
                 <li>
                   coordinate and distribute work between 2 or 3 cross functional
-                  squads of ~6 to meet quarterly goals
+                  squads of ~7 to meet quarterly goals
                 </li>
                 <li>
                   optimise team processes for incremental delivery following
-                  lean-agile methodologies, always evolving with the team's
+                  lean/agile methodologies, always evolving with the team's
                   feedback
                 </li>
               </ul>
@@ -54,13 +54,14 @@ export default function Experience() {
               Manager of managers:
               <ul>
                 <li>
-                  line manager of ten engineers, two of which are also managers
+                  line manager of ~15 engineers, two of which also managers
                 </li>
-                <li>developed the employee feedback and development process</li>
+                <li>structured the employee feedback, objectives and review process</li>
+                <li>shaped the frontend engineering interview process and onboarding</li>
               </ul>
             </li>
             <li>
-              Frontend chapter/guild lead and project manager:
+              Frontend chapter/guild lead:
               <ul>
                 <li>
                   designed and led the migration to micro-frontends using Lerna
@@ -70,7 +71,7 @@ export default function Experience() {
                   designed and led the move to workflow driven e2e testing with
                   visual regression in Cypress with Cucumber
                 </li>
-                <li>set up a bespoke interview process and exercises</li>
+                <li>wrote and trialed bespoke exercises for the interview process</li>
               </ul>
             </li>
           </ul>

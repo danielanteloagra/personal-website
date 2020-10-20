@@ -61,6 +61,7 @@ const Profile = styled(Block)`
 
   @media print {
     width: 100%;
+    padding: 0%;
   }
 `
 
