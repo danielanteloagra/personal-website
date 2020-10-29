@@ -66,7 +66,7 @@ export default function Skills() {
         </p>
       </Highlight>
       <Tech>
-        <h3>Most Relevant Technical Expertise</h3>
+        <h3>Technical Expertise</h3>
         <SkillList>
           <Skill>Typescript</Skill>
           <Skill>Javascript</Skill>

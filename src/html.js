@@ -5,6 +5,7 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
+        <title>Daniel Antelo, MSc</title>
         <meta charSet="utf-8" />
         <meta name="robots" content="noindex" />
         <meta name="googlebot" content="noindex" />

@@ -23,7 +23,7 @@ export default function Experience() {
     <Section title="Work Experience" description="Where I've worked">
       <MostRecent>
         <HistoricalListItem
-          title="Senior Frontend Engineer"
+          title="Senior Frontend Engineer/Engineering Manager"
           location="OakNorth, London"
           dates="September 2019 - Present"
         >

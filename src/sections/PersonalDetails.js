@@ -128,8 +128,8 @@ export default function PersonalDetails() {
           of the bigger picture in order to implement balanced and effective
           solutions and deliver outstanding user experiences. With this focus,
           over the past decade, I have impacted a wide range of engineering
-          teams in both startup and corporate settings resulting in great
-          successes for a variety of projects.
+          teams and projects in both startup and corporate settings resulting in great
+          successes.
         </p>
         <p>
           Leading teams comes naturally, I enjoy improving team dynamics and
@@ -138,7 +138,7 @@ export default function PersonalDetails() {
           the importance of having high code confidence and am a firm believer
           in automated processes. I enjoy working in a challenging and fast
           paced environment where people matter just as much as cutting-edge
-          technology.
+          technology. 
         </p>
       </Profile>
     </PersonaDetails>
