@@ -2,9 +2,9 @@ import React from "react"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-  border-bottom: 0.1em solid #ddd;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  border-bottom: ${props => (props.showDivider ? "0.1em solid #ddd" : "none")};
+  margin-bottom: ${props => (props.showDivider ? "1em" : "0")};
+  padding-bottom: ${props => (props.showDivider ? "1em" : "0")};
   &:last-of-type {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -38,9 +38,10 @@ export default function HistoricalListItem({
   location,
   dates,
   children,
+  additionalRole,
 }) {
   return (
-    <Wrapper>
+    <Wrapper showDivider={!additionalRole}>
       <Dates>{dates}</Dates>
       <Title>{title}</Title>
       <Location>{location}</Location>

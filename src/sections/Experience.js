@@ -23,9 +23,22 @@ export default function Experience() {
     <Section title="Work Experience" description="Where I've worked">
       <MostRecent>
         <HistoricalListItem
-          title="Senior Frontend Engineer/Engineering Manager"
+          title="Engineering Manager"
           location="OakNorth, London"
-          dates="September 2019 - Present"
+          dates="October 2020 - Present"
+          additionalRole
+        >
+          <p>
+            Managing the delivery and career progression of ~25 engineers across
+            4 squads with a focus on product development and user experiences,
+            as well as leading the Frontend Guild and providing frontend
+            technical direction.
+          </p>
+        </HistoricalListItem>
+        <HistoricalListItem
+          title="Lead Frontend Engineer"
+          location="OakNorth, London"
+          dates="September 2019 - Oct 2020"
         >
           <p>
             Technical lead, line manager and frontend engineer at this FinTech
@@ -33,45 +46,45 @@ export default function Experience() {
           </p>
           <ul>
             <li>
-              Lead of the case analysis mission:
+              Frontend chapter/guild technical lead:
               <ul>
                 <li>
-                  solving case data normalisation and visualisation as well as
-                  analysis and monitoring workflows with Python and React
+                  coordinated and managed the frontend guild meetings and the
+                  work to be done to improve the frontend for all
                 </li>
                 <li>
-                  coordinate and distribute work between 2 or 3 cross functional
-                  squads of ~7 to meet quarterly goals
+                  architected and led the migration to micro-frontends using
+                  Lerna, Yarn Workspaces and github packages and workflows
                 </li>
                 <li>
-                  optimise team processes for incremental delivery following
-                  lean/agile methodologies, always evolving with the team's
-                  feedback
-                </li>
-              </ul>
-            </li>
-            <li>
-              Manager of managers:
-              <ul>
-                <li>
-                  line manager of ~15 engineers, two of which also managers
-                </li>
-                <li>structured the employee feedback, objectives and review process</li>
-                <li>shaped the frontend engineering interview process and onboarding</li>
-              </ul>
-            </li>
-            <li>
-              Frontend chapter/guild lead:
-              <ul>
-                <li>
-                  designed and led the migration to micro-frontends using Lerna
-                  and github packages and workflows
+                  shaped the frontend engineering interview process (including
+                  bespoke exercises with and without frameworks)
                 </li>
                 <li>
                   designed and led the move to workflow driven e2e testing with
                   visual regression in Cypress with Cucumber
                 </li>
-                <li>wrote and trialed bespoke exercises for the interview process</li>
+              </ul>
+            </li>
+            <li>
+              Technical lead and line manager of the Case Analysis
+              mission/department:
+              <ul>
+                <li>
+                  coordinated 2 cross functional squads to meet their quarterly
+                  goals solving case data normalisation and visualisation as
+                  well as analysis and monitoring workflows with Python and
+                  React
+                </li>
+                <li>
+                  line managed 14 engineers in the above squads ensuring their
+                  happiness and career progression
+                </li>
+                <li>
+                  optimised team processes for incremental delivery and high
+                  code confidence following lean/agile methodologies, always
+                  evolving with the team's feedback
+                </li>
               </ul>
             </li>
           </ul>
