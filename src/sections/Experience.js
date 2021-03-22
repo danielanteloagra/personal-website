@@ -36,7 +36,7 @@ export default function Experience() {
           </p>
         </HistoricalListItem>
         <HistoricalListItem
-          title="Lead Frontend Engineer"
+          title="Technical Lead"
           location="OakNorth, London"
           dates="September 2019 - Oct 2020"
         >
