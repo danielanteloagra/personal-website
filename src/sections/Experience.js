@@ -24,15 +24,13 @@ export default function Experience() {
       <MostRecent>
         <HistoricalListItem
           title="Engineering Manager"
-          location="OakNorth, London"
           dates="October 2020 - Present"
           additionalRole
         >
           <p>
-            Managing the delivery and career progression of ~25 engineers across
-            4 squads with a focus on product development and user experiences,
-            as well as leading the Frontend Guild and providing frontend
-            technical direction.
+          Managing the delivery and career progression of ~25 engineers across 4 squads with 
+          a focus on product development and user experiences, 
+          as well as leading the Frontend Guild and providing frontend technical direction.
           </p>
         </HistoricalListItem>
         <HistoricalListItem
@@ -41,53 +39,47 @@ export default function Experience() {
           dates="September 2019 - Oct 2020"
         >
           <p>
-            Technical lead, line manager and frontend engineer at this FinTech
-            startup. Highlights include:
+            <ul>
+              <li>
+                Frontend chapter/guild technical lead:
+                <ul>
+                  <li>
+                    coordinated the frontend guild and oversaw the
+                    work to be done to improve the frontend actchitecture
+                  </li>
+                  <li>
+                    architected and led the migration to micro-frontends using
+                    Lerna, Yarn Workspaces and github packages and workflows
+                  </li>
+                  <li>
+                    setup the frontend engineering interview process (including
+                    bespoke exercises with and without frameworks)
+                  </li>
+                  <li>
+                    designed and led the move to workflow driven e2e testing with
+                    visual regression in Cypress
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Technical lead and line manager of the Case Analysis
+                mission:
+                <ul>
+                  <li>
+                    coordinated 2 cross functional squads solving loan data normalisation and visualisation, and loan analysis and monitoring workflows (Python & React)
+                  </li>
+                  <li>
+                    optimised team processes for incremental delivery and high
+                    code confidence following lean/agile methodologies
+                  </li>
+                  <li>
+                    line managed 14 engineers in the above squads ensuring their
+                    happiness and career progression
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </p>
-          <ul>
-            <li>
-              Frontend chapter/guild technical lead:
-              <ul>
-                <li>
-                  coordinated and managed the frontend guild meetings and the
-                  work to be done to improve the frontend for all
-                </li>
-                <li>
-                  architected and led the migration to micro-frontends using
-                  Lerna, Yarn Workspaces and github packages and workflows
-                </li>
-                <li>
-                  shaped the frontend engineering interview process (including
-                  bespoke exercises with and without frameworks)
-                </li>
-                <li>
-                  designed and led the move to workflow driven e2e testing with
-                  visual regression in Cypress with Cucumber
-                </li>
-              </ul>
-            </li>
-            <li>
-              Technical lead and line manager of the Case Analysis
-              mission/department:
-              <ul>
-                <li>
-                  coordinated 2 cross functional squads to meet their quarterly
-                  goals solving case data normalisation and visualisation as
-                  well as analysis and monitoring workflows with Python and
-                  React
-                </li>
-                <li>
-                  line managed 14 engineers in the above squads ensuring their
-                  happiness and career progression
-                </li>
-                <li>
-                  optimised team processes for incremental delivery and high
-                  code confidence following lean/agile methodologies, always
-                  evolving with the team's feedback
-                </li>
-              </ul>
-            </li>
-          </ul>
         </HistoricalListItem>
         <HistoricalListItem
           title="Senior Software Developer"
